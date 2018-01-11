@@ -3,6 +3,7 @@
     "outDir": "builder",
     "module": "commonjs",
     "target": "es5",
+    "sourceMap": true,
     "strict": true,
     "watch": true,
     "typeRoots": [
