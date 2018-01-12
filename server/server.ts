@@ -1,6 +1,10 @@
 import * as http from "http"
+import Api from "./api/api"
+//import * as errorHandlerApi from './api/errorHandlerApi';
 
-const server = http.createServer()
+const config = require('./config/env/config')()
 
-server.listen(3000, () => console.log('Server started'))
+const server = http.createServer(Api)
+
+server.listen(config.serverPort, () => console.log('Server started'))
 

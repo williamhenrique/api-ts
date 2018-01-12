@@ -5,6 +5,6 @@ module.exports = {
     username: '',
     password: '',
     host: '',
-    serverPort: '',
+    serverPort: '3000',
     secret: 'S3Cret3'
 }

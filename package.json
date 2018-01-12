@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=dev ./node_modules/.bin/ts-node ./server/server.ts",
-    "server": "NODE_ENV=dev node ./builder/server.js",
+    "start": "set NODE_ENV=dev ./node_modules/.bin/ts-node ./server/server.ts",
+    "server": "set NODE_ENV=dev&&node ./builder/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
