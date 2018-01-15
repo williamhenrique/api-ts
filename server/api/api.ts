@@ -7,6 +7,7 @@ class Api{
     public express: Application;
     constructor(){
         this.express = express()    
+        this.middleware()
     }
 
     middleware(){

@@ -1,0 +1,1 @@
+{"version":3,"file":"errorHandlerApi.js","sourceRoot":"","sources":["../../../server/api/errorHandlerApi.ts"],"names":[],"mappings":";;AAEA,wBAA+B,GAAa,EAAE,GAAY,EAAE,KAA0B,EAAE,IAAkB;IACtG,OAAO,CAAC,KAAK,CAAC,mBAAiB,KAAO,CAAE,CAAA;IACxC,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC;QACjB,UAAU,EAAG,KAAK;QAClB,SAAS,EAAG,uBAAuB;KACtC,CAAC,CAAA;AACN,CAAC;AAND,wCAMC"}

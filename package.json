@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=dev ./node_modules/.bin/ts-node ./server/server.ts",
-    "server": "set NODE_ENV=dev&&node ./builder/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "set NODE_ENV=dev&node ./builder/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unit-test": "NODE_ENV=test node mocha --opts ./builder/tests/unit/config/mocha.opts&node ./builder/tests/unit/unit.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,8 +21,15 @@
   },
   "devDependencies": {
     "@types/body-parser": "^1.16.8",
+    "@types/chai": "^4.1.0",
     "@types/express": "^4.11.0",
+    "@types/mocha": "^2.2.46",
     "@types/morgan": "^1.7.35",
+    "@types/supertest": "^2.0.4",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0",
+    "testdouble": "^3.3.1",
     "ts-node": "^4.1.0",
     "tsd": "^0.6.5"
   }
