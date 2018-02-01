@@ -7,16 +7,18 @@
     "start": "set NODE_ENV=dev ./node_modules/.bin/ts-node ./server/server.ts",
     "server": "set NODE_ENV=dev&node ./builder/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "unit-test": "NODE_ENV=test node mocha --opts ./builder/tests/unit/config/mocha.opts&node ./builder/tests/unit/unit.test.js"
+    "unit-test": "set NODE_ENV=test mocha --opts ./builder/tests/unit/config/mocha.opts&node ./builder/tests/unit/unit.test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cross-env": "^5.1.3",
     "express": "^4.16.2",
     "http": "0.0.0",
+    "mocha": "^5.0.0",
     "morgan": "^1.9.0",
-    "sequelize": "^4.30.1",
+    "sequelize": "^4.32.2",
     "sequelize-cli": "^3.2.0"
   },
   "devDependencies": {
@@ -27,7 +29,6 @@
     "@types/morgan": "^1.7.35",
     "@types/supertest": "^2.0.4",
     "chai": "^4.1.2",
-    "mocha": "^4.1.0",
     "supertest": "^3.0.0",
     "testdouble": "^3.3.1",
     "ts-node": "^4.1.0",

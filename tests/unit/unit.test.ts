@@ -1,6 +1,10 @@
-import {testDouble, expect} from './config/helpers'
-console.log();
+import {testDouble, expect} from './config/helpers';
+console.log('oi');
 
+describe('Testes Unitarios do Controle', () => {
+    
+})
+/*
 describe('Testes Unitarios do Controle', () => {
     describe('Metodo Create', () =>{
         it('Deve criar um usuario', ()=> {
@@ -23,3 +27,4 @@ describe('Testes Unitarios do Controle', () => {
         })
     });
 })
+*/
