@@ -3,7 +3,7 @@ console.log('oi');
 
 describe('Testes Unitarios do Controle', () => {
     
-})
+});
 /*
 describe('Testes Unitarios do Controle', () => {
     describe('Metodo Create', () =>{

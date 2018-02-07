@@ -4,7 +4,7 @@ var express = require("express");
 var morgan = require("morgan");
 var bodyParser = require("body-parser");
 var routes_1 = require("./routes/routes");
-var Api = (function () {
+var Api = /** @class */ (function () {
     function Api() {
         this.express = express();
         this.middleware();
