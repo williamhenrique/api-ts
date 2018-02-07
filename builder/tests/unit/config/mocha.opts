@@ -1,4 +1,4 @@
---require builder/tests/unit/config/helpers.js
+--require ./helpers.js
 --reporter spec
 --watch-extensions js
 --slow 5000

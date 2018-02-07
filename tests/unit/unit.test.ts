@@ -1,9 +1,15 @@
 import {testDouble, expect} from './config/helpers';
-console.log('oi');
 
-describe('Testes Unitarios do Controle', () => {
-    
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+  });
 });
+
+
 /*
 describe('Testes Unitarios do Controle', () => {
     describe('Metodo Create', () =>{

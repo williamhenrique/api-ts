@@ -7,7 +7,7 @@
     "start": "set NODE_ENV=dev ./node_modules/.bin/ts-node ./server/server.ts",
     "server": "set NODE_ENV=dev&node ./builder/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "unit-test": "set NODE_ENV=test mocha --opts ./builder/tests/unit/config/mocha.opts&node ./builder/tests/unit/unit.test.js"
+    "unit-test": "set NODE_ENV=test&mocha --opts ./builder/tests/unit/config/mocha.opts&mocha  ./builder/tests/unit/unit.test.js"
   },
   "author": "",
   "license": "ISC",
